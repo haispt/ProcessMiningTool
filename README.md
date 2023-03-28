@@ -2,6 +2,7 @@
 ProcessMiningTool - DPE from Kyongi University
 Installation Guide for the Process Mining Tool - DPE
 
+
 # 1. Introduction
 This project aims to provide a web process miner using Django that anyone can use. This tool is up and running right out of the box and has a basic setup you can extend.
 The research group developed this tool from the Data and Process Engineering Laboratory at KYONGGI UNIVERSITY. Our laboratory has been established since 1998.
@@ -16,21 +17,18 @@ Learn more about us at http://ctrl.kyonggi.ac.kr.
 
 # 2. Installation and using the tool
 
+SYSTEMREQUIREMENT: Gaphiviz and add in to PATH
+
 ## For Windows
 Step 1: Install Python
 First, you need to install Python 3.9 or higher. You can download the latest version of Python from the official website (https://www.python.org/downloads/windows/).
 
-Step 2: Install Django
-Next, you need to install Django. Open a command prompt and run the following command:
-```
-pip install Django
-```
-Step 3: Install the Required Packages
+Step 2 Install the Required Packages
 The tool has several dependencies that you need to install. Navigate to the root directory of the project and run the following command:
 ```
 pip install -r requirements.txt
 ```
-Step 4: Start the Server
+Step 3: Start the Server
 After installing the required packages, start the Django development server by running the following command in the root directory of the project:
 ```
 python manage.py runserver
@@ -49,17 +47,12 @@ Next, you need to install Pip, the package installer for Python. Run the followi
 ```
 sudo apt install python3-pip
 ```
-Step 3: Install Django
-After installing Pip, you can install Django by running the following command:
-```
-pip3 install Django
-```
-Step 4: Install Required Packages
+Step 3: Install Required Packages
 The tool has several dependencies that you need to install. Navigate to the root directory of the project and run the following command:
 ```
 pip3 install -r requirements.txt
 ```
-Step 5: Start the Server
+Step 44: Start the Server
 After installing the required packages, start the Django development server by running the following command in the root directory of the project:
 ```
 python3 manage.py runserver
@@ -75,17 +68,12 @@ Next, you need to install Pip, the package installer for Python. Open a terminal
 ```
 sudo easy_install pip
 ```
-Step 3: Install Django
-After installing Pip, you can install Django by running the following command:
-```
-pip install Django
-```
-Step 4: Install Required Packages
+Step 3: Install Required Packages
 The tool has several dependencies that you need to install. Navigate to the root directory of the project and run the following command:
 ```
 pip install -r requirements.txt
 ```
-Step 5: Start the Server
+Step 4: Start the Server
 After installing the required packages, start the Django development server by running the following command in the root directory of the project:
 ```
 python manage.py runserver
